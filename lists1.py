@@ -48,11 +48,28 @@ a=[1,2,4,5,1,1]
 # del a[-2]
 # print(a)
 
-a.remove(1)
-print(a)
+# a.remove(1)
+# print(a)
 
-a.remove(1)
-print(a)
+# a.remove(1)
+# print(a)
 
-a.remove(1)
-print(a)
+# a.remove(1)
+# print(a)
+
+# a=a*2
+# print(a)
+
+a=[1,2,4,5,1,1]
+b=[7,8,9,0]
+# a=a+b
+# print(a)
+
+# j=len(a)
+# print(j)
+
+print(8 not in a)
+print(8 in a)
+
+print(max(b)) #print max value in list
+print(min(a)) #print min
