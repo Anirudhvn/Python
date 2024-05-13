@@ -164,3 +164,136 @@
 #     if a%2==0:
 #         print(a)
 #     a+=1
+
+
+# Nested Loop
+
+
+# for i in range (5):
+#     for j in range(i+1):
+#         print(i,"seed")
+
+
+#2nd
+
+# for i in range(5):
+#     for j in range(5):
+#         print("*",end=" ")
+#     print()
+    
+#3rd
+
+# for i in range(4):
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
+
+# 4th
+
+# for i in range(5):
+#     for j in range(1,i+2):
+#         print(j,end=" ")
+#     print()
+
+# 5th
+
+# a=input()
+# for i in range(len(a)):
+#     for j in range(i+1):
+#         print(a[j],end=" ")
+#     print()
+
+# 6th
+
+# for i in range(5):
+#     for j in range(4-i):
+#         print(" ",end="")
+#     print((i+1)*"* ")
+
+#7th
+
+# for i in range(5):
+#     for j in range(4-i):
+#         print(" ",end="")
+#     print((i+1)*"*")
+
+#8th
+
+# for i in range(5):
+#     for j in range(5-i):
+#         print("*",end=" ")
+#     print()
+
+#9th
+
+
+# n=int(input("enter a number"))
+# for i in range(n):
+#     if i==0 or i==n-1:
+#         for j in range(n):
+#             print("*",end=" ")
+#         print()
+#     else:
+#         for j in range(n):
+#             if j==0 or j==(n-1):
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+
+
+# def area(r):
+#     return 3.14*r*r
+# r=int(input("enter radius"))
+# print(area(r))
+
+
+# def even(a):
+#     if a%2==0:
+#         return True
+#     else:
+#         return False
+    
+# print(even(7))
+
+
+# def fact(a):
+#     if a==1:
+#         return 1
+#     else:
+#         return a*fact(a-1)
+
+# a=int(input("enter the value of a:"))
+# b=fact(a)
+# print(b)
+
+
+# def tempconv(f):
+#     c=(f-32)*5/9
+#     return c
+
+# f=int(input("enetr temp in farenheit"))
+# print(tempconv(f))
+
+
+
+
+
+
+
+# def fibonacci(n):
+#     if n <= 1:
+#         return n
+#     else:
+#         return fibonacci(n - 1) + fibonacci(n - 2)
+
+# nterms = 1  
+# if nterms <= 0:
+#     print("Please enter a positive integer")
+# else:
+#     print("Fibonacci sequence:")
+#     for i in range(nterms):
+#         print(fibonacci(i))
+
+
