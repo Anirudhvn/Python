@@ -297,3 +297,91 @@
 #         print(fibonacci(i))
 
 
+
+# try:
+#     result=10/0
+# except ZeroDivisionError:
+#     print("cannot divide by zero")
+# else:
+#     print("result is",result)
+# finally:
+#     print("this will always be executed")
+
+
+
+# try:
+#     l1=[1,2,3]
+#     print(l1[10])
+# except IndexError:
+#     print("index out of range")
+
+
+# def div(a,b):
+#     try:
+#         return a/b
+#     except ZeroDivisionError:
+#         return "cannot divide by zero"
+    
+# print(div(10,0))
+# print(div(10,5))
+
+
+# a="hello"
+# if not type(a) is int:
+#     raise Exception("only intiger is allowed")
+
+
+
+# amount = 10000
+# if(amount > 2999):
+#     print("You are eligible to purchase Dsa Self Paced")
+
+
+
+# a = [1, 2, 3]
+# try: 
+#     print ("Second element = %d" %(a[1]))
+ 
+#     print ("Fourth element = %d" %(a[3]))
+ 
+# except:
+#     print ("An error occurred")
+
+
+
+
+# def fun(a):
+#     if a < 4:
+ 
+#         b = a/(a-3)
+#     print("Value of b = ", b)
+     
+# try:
+#     # fun(3)
+#     fun(5)
+# except ZeroDivisionError:
+#     print("ZeroDivisionError Occurred and Handled")
+# except NameError:
+#     print("NameError Occurred and Handled")
+
+
+# def AbyB(a , b):
+# 	try:
+# 		c = ((a+b) / (a-b))
+# 	except ZeroDivisionError:
+# 		print ("a/b result in 0")
+# 	else:
+# 		print (c)
+# AbyB(2.0, 3.0)
+# AbyB(3.0, 3.0)
+
+
+# try:
+# 	k = 5//0
+# 	print(k)
+
+# except ZeroDivisionError:
+# 	print("Can't divide by zero")
+
+# finally:
+# 	print('This is always executed')
